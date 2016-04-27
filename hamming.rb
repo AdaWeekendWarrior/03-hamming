@@ -9,7 +9,6 @@ class Hamming
 
   def self.compute(a, b)
     length = a.length
-    raise ArgumentError unless length == b.length
 
     distance = 0
     length.times do |index|
